@@ -1,0 +1,166 @@
+body {
+    font-family: SwissHead, Helvetica, Arial, sans-serif;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.custom-link {
+    font-weight: 600;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+    color: #c00;
+}
+
+.custom-link-1 {
+    font-size: 20px;
+    margin-left: 2em;
+    font-weight: 600;
+}
+
+.custom-link-1:hover {
+    color: #c00;
+}
+
+.head-container {
+    width: 100%;
+    height: 500px;
+}
+
+.head-container img {
+    /* position: absolute; */
+    width: 100%;
+}
+
+.custom-nav a:hover {
+    text-decoration: underline;
+}
+
+/* .custom-nav-tabs {
+    display: flex;
+    justify-content: space-between;
+} */
+.custom-nav-tabs li a {
+    background-color: black;
+    color: white;
+}
+
+.custom-nav-tabs>li:first-child a {
+    background-color: white;
+    color: #c00;
+}
+
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.custom-btn:hover {
+    color: white;
+    background-color: #c00;
+}
+
+.head-body {
+    position: relative;
+    top: 250px;
+}
+
+.form-container {
+    background-color: white;
+}
+
+.collapse-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse-section {
+    width: 30em;
+    margin: 1em;
+    padding: 1em;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.collapse-section:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    color: #c00;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+/* .custom-card {
+    height: 60vh;
+} */
+
+.custom-card img {
+    transition: transform 1s ease;
+}
+
+.custom-card img:hover {
+    transform: scale(1.05);
+}
+
+.custom-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.custom-link:hover {
+    text-decoration: none;
+}
+
+.hover-shadow {
+    transition: box-shadow 0.3s;
+    /* Add a smooth transition */
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.custom-card-height {
+    height: 40vh;
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.card-body h5 {
+    font-weight: 600;
+}
+
+.card-body p {
+    font-weight: 300;
+}
+
+.dropdown-outline {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.dropdown-outline .dropdown-menu {
+    border: none;
+    box-shadow: none;
+}

@@ -5,68 +5,217 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Swiss website</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Bootstrap
-              </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div class="container">
+        <!-- Nav container -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link custom-link" aria-current="page" href="#"><i
+                                class="bi bi-person-circle"></i>Login</a>
+                        <a class="nav-link custom-link" href="#"><i class="bi bi-question-square-fill"></i>Help</a>
+                        <a class="nav-link custom-link" href="#"><i class="bi bi-globe"></i>UN-EN</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=""><img src="./assets/images/Swiss_International_Air_Lines_logo.png"
+                        width="200"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link custom-link-1" href="#">Book & manage</a>
+                        <a class="nav-link custom-link-1" href="#">Prepare</a>
+                        <a class="nav-link custom-link-1" href="#">Fly</a>
+                        <a class="nav-link custom-link-1" href="#">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Head container -->
+        <div class="head-container p-5 text-center" style="background-image: url('./assets/images/header.jpg');">
+            <div class="head-body">
+                <ul class="nav nav-tabs custom-nav-tabs row">
+                    <li class="col-sm-4">
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa fa-fighter-jet me-1"
+                                aria-hidden="true"></i>Flights</a>
                     </li>
-                    <li class="nav-item">
-                        <form class="d-flex" role="search">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa fas-magnifying-glass"></i></span>
-                            <input class="form-control me-2" type="search" placeholder="Search Pixabay" aria-label="Search">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown button
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </div>
-                        </form>
+                    <li class="col-sm-4">
+                        <a class="nav-link" href="#"><i class="fas fa-car me-1"></i>Rental car</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="col-sm-4">
+                        <a class="nav-link" href="#"><i class="fas fa-bed me-1"></i>Hotel</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                </form>
+                <div class="form-container">
+                    <!-- Search form navbar -->
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav custom-nav">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Round Trip
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Round trip</a></li>
+                                        <li><a class="dropdown-item" href="#">One-way</a></li>
+                                        <li><a class="dropdown-item" href="#">Multi-city</a></li>
+                                    </ul>
+                                    <a class="nav-link" href="#">Economy. 1 traveller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- Search form -->
+                    <div class="row">
+                        <div class="col mb-3 ms-3 me-0">
+                            <input type="text" class="form-control" placeholder="From" aria-label="From">
+                        </div>
+                        <button class="btn btn-light btn-circle custom-btn m-1 mb-3"><i
+                                class="bi bi-arrow-left-right"></i></button>
+                        <div class="col mb-3 ms-0">
+                            <input type="text" class="form-control" placeholder="To" aria-label="To">
+                        </div>
+                        <div class="col mb-5 input-group">
+                            <input type="text" class="form-control" placeholder="Departure - Return" aria-label="Date">
+                            <div class="input-group-text"><i class="bi bi-calendar3"></i></div>
+                        </div>
+                        <div class="col mb-3">
+                            <button type="submit" class="btn btn-danger">Search Flights</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
+    <!-- Actions section -->
+    <div class="container mb-3">
+        <div class="collapse-sections">
+            <div class="collapse-section">
+                <span><i class="fa-solid fa-plane-departure me-1"></i>Flight status</span><span><i
+                        class="bi bi-plus-lg"></i></span>
+            </div>
+            <div class="collapse-section">
+                <span><i class="fa-solid fa-plane-departure me-1"></i>Check-in / My Bookings</span><span><i
+                        class="bi bi-plus-lg"></i></span>
+            </div>
+            <div class="collapse-section">
+                <span><i class="fa fa-credit-card me-1"></i>Miles & More</span><span><i
+                        class="bi bi-plus-lg"></i></span>
+            </div>
+        </div>
+        <!-- Two Images section -->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card custom-card">
+                    <div class="img-container">
+                        <img src="./assets/images/cardImage1.jpg" class="card-img-top" alt="card image">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Attractive offers</p>
+                        <h5 class="card-title">Find your next destination now</h5>
+                        <a href="#" class="btn btn-secondary custom-secondary-btn">Offers and destinations</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card custom-card">
+                    <div class="img-container">
+                        <img src="./assets/images/cardimage2.jpg" class="card-img-top" alt="card image">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Zurich awaits you</p>
+                        <h5 class="card-title">Explore Zurich - the sparklinf jewel in the Swiss crown</h5>
+                        <a href="#" class="btn btn-secondary">Find flights here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Four images section -->
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-sm-3 custom-link">
+                <div class="card custom-card-height hover-shadow">
+                    <img src="./assets/images/card2img1.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Travel ID</h5>
+                        <p class="card-text">You have the option of travelling with a medically trained escort</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="">Offers and destinations</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 custom-link">
+                <div class="card custom-card-height hover-shadow">
+                    <img src="./assets/images/card2img2.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">New SWISS Connect packages</h5>
+                        <p class="card-text">Stay connected above the clouds. Now free of charge with the new Wi-Fi
+                            packages.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="">More info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 custom-link">
+                <div class="card custom-card-height hover-shadow">
+                    <img src="./assets/images/card2img3.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Online check-in</h5>
+                        <p class="card-text">Check in for your next flight conveniently at home or the office.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="">To online check-in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 custom-link">
+                <div class="card custom-card-height hover-shadow">
+                    <img src="./assets/images/card2img4.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">SWISS in the US</h5>
+                        <p class="card-text">Here you can find important info our tarmac delay plan, customer
+                            support
+                            and more.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="">SWISS in th US</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
